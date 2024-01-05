@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.test{
+    position: relative;
+    width: auto;
+    height: auto;
+    background: #eff4fd;
+}
+.logo{
+    
+    width: 10%;
+    align-content: left;
+    
+    
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+nav ul li a:hover{
+    color: red;
+
+}
+.details{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.details h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+.details p{
+    color: green;
+    line-height: 22px;
+}
+.details a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    bottom: 340px;
+    right: 100px;
+}
+
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .mypic{
+    left: 45%;
+}
+.about{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.about h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.about p{
+    color: rgb(164, 69, 202);
+    line-height: 22px;
+}
+.project{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.project h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.project p{
+    color: rgb(164, 69, 202);
+    line-height: 22px;
+}
+.achivement{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.achivement h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.achivement p{
+    color: rgb(164, 69, 202);
+    line-height: 22px;
+}
+.contact{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.contact h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
